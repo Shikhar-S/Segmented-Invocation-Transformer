@@ -1,0 +1,1031 @@
+du -s --block-size=Size File
+diff -q -r File File | cut -d Regex -f Number | xargs -I ReservedWord dirname ReservedWord | uniq
+find Path -exec touch File \;
+cat File | ssh Regex
+mktemp -t Regex
+find Path -type Type -name Regex
+find Path -size Size -exec ls -l -h File \;
+find Path -name Regex
+find Path -maxdepth Quantity -mindepth Quantity -type Type
+find Path -daystart -type Type -mtime Timespan
+echo Regex | column
+ln -s $(find Path -name Regex) Regex
+find Path -name Regex
+find Path -type Type -iname Regex
+find Path -mtime Timespan
+find Path -print | grep Regex
+set | sed -n Program
+find Path -type Type -name Regex | xargs -I ReservedWord tar -c -v -f File ReservedWord
+find Path $(pwd -P) -mtime Timespan -not \( -name Regex -or -regex Regex -or -regex Regex \)
+echo Regex | tr Regex Regex | grep -c Regex
+history Quantity | cut -c Number
+find Path Path Path -name Regex -type Type
+find Path -maxdepth Quantity -mtime Timespan -exec gzip -N Regex \;
+find Path -not -name Regex -or -type Type -print | xargs -I ReservedWord grep -i -c -l Regex ReservedWord
+find Path ! -name Regex -prune -name Regex -exec mv File File \;
+find Path -type Type -exec echo Regex \;
+echo $(ls -l $(which Regex))
+cat File | wc -l
+who | awk Program | sort | uniq -c | sort -n
+rsync -a -v -z --progress File File
+find Path -name Regex
+find Path -name Regex
+find Path -name Regex -prune -or -type Type -name Regex | xargs -I ReservedWord wc -l ReservedWord
+set -e
+find Path -print0 | xargs --null
+find Path -iname Regex -print0
+find Path -cmin Quantity | head
+find Path -path Regex -delete
+echo $(seq Number Number)
+more File | grep $(hostname) | awk Program
+find Path -type Type -exec split -l Quantity File \;
+wget $(hostname -I) Regex
+find Path -mtime Timespan
+rsync -a --rsync-path=Program File File
+find Path -name Regex -exec rm File \;
+watch command
+dirname Regex
+find Path -maxdepth Quantity -type Type -mtime Timespan
+find Path -name Regex -exec chmod Permission File \;
+find Path -type Type -exec chmod Permission File \;
+rm -r -f File File File File File File
+find Path -mmin Quantity \( ! -regex Regex \)
+find Path -name Regex -exec sed -i -r Program File \;
+find Path -type Type -name Regex -exec ls -l File \;
+history -a
+find Path -type Type
+echo -n Regex | md5sum
+find Path -mindepth Quantity -name Regex
+hostname -I | cut -f Number -d Regex
+chown -R $(whoami) File
+find Path -name Regex \( -exec echo Regex \; -or -exec true \; \) -exec grep Regex File \;
+find Path -type Type -empty -exec rmdir Directory \;
+find Path -name Regex -type Type | wc -l
+find Path -type Type -print0 | xargs -r -0 -I ReservedWord grep -F Regex ReservedWord
+find Path -type Type | grep -v Regex | xargs -I ReservedWord rmdir ReservedWord
+scp -q -v File File
+find Path -type Type -name Regex -exec wc -l File +
+find Path -type Type -exec du -S -h File + | sort -r -h | head -n Quantity
+grep -e Regex Regex | cut -d Regex --complement -s -f Number
+shopt -s Option
+read -p $(pwd -P) Regex
+join -t Regex -o Format -a Quantity -e Regex File <(sort File)
+ssh -f Regex -L Regex -N
+find Path -name Regex
+find Path -name Regex -print
+find Path -cmin Quantity
+ssh Regex command
+od -x -c File
+find Path -inum Quantity -exec rm File \;
+find Path -mtime Timespan -exec rm File \;
+find Path -path Regex -prune -or -path Regex -prune -or -path Regex -prune -or -print
+chown -R Regex File
+find Path -nouser -exec ls -l File \; -ok chown Regex File \;
+find Path -type Type -exec ls -s File \; | sort -n -r
+md5sum File | cut -d Regex -f Number | sort -u
+find Path -depth -name Regex
+split --bytes=Size File Regex
+split -l Quantity File
+mktemp -d -p Directory
+find Path -user Regex -iname Regex
+ls | column -c Quantity
+find Path -name Regex
+find Path -name Regex -type Type -exec grep -H -n Regex File \; | wc -l
+split -n Quantity File
+find Path -mtime Timespan
+read -p Regex Regex
+gzip -d -c Regex
+diff -y File File
+find Path -user Regex
+join -v Quantity <(sort File) <(sort File)
+find Path -type Type -user Regex -exec chown Regex File \;
+find Path -mtime Timespan | grep -v Regex | grep -v Regex | grep -v Regex
+mkdir Directory Directory
+hostname -I | cut -d Regex -f Number
+file -i -b File
+find Path -type Type | xargs -I ReservedWord sort -o File ReservedWord
+ln -s -f File Regex
+find Path -iname Regex
+find Path -name Regex | xargs -I ReservedWord grep -v -c Regex ReservedWord | awk Program
+find Path -name Regex
+find Path -name Regex -exec echo Regex \; | column -t
+du -k -s File | sort -n -r
+find Path -type Type -daystart -mtime Timespan
+find Path -atime Timespan
+find Path -name Regex
+find Path -type Type -mtime Timespan -print0 | xargs -0 -n Quantity -I ReservedWord rm ReservedWord
+find Path -regex Regex
+find Path -not -user Regex
+cal | awk -v Program -v Program Program
+kill $(pstree -p Regex | sed Program | grep Regex | sed Program | tr Regex Regex)
+find Path -name Regex | xargs -I ReservedWord rm ReservedWord
+find Path -name Regex -exec ls -l File \;
+sort | uniq -u | xargs -r -I ReservedWord rm ReservedWord
+find Path -maxdepth Quantity -type Type
+find Path -mtime Timespan
+find Path -name Regex -newer File
+yes Regex | sed Program
+find Path \( ! -regex Regex \) | sed Program
+cd $(echo -n Regex)
+find Path -name Regex | xargs -I ReservedWord cat ReservedWord
+rm -r -f $(find Path -type Type -name Regex)
+history -r Quantity
+find Path -type Type -name Regex -delete
+find Path \( -name Regex -prune -or -name Regex \) -print
+chown Regex File
+zcat Regex | grep -E Regex
+echo Regex | tr -d Regex
+find Path -name Regex
+zcat Regex | tar File
+find Path Path -maxdepth Quantity -type Type
+find Path -type Type -exec sed -i Program File +
+find Path -type Type -print0 | xargs -0 -I ReservedWord grep -l -i -w -Z Regex ReservedWord | xargs -0 -I ReservedWord rm -f ReservedWord
+mkdir Directory
+find Path -type Type -name Regex
+cd $(dirname $(readlink -f File))
+grep -o Regex File | tr Regex Regex | sort | uniq -c | sort -n -r
+find Path -regextype Type -regex Regex -exec grep -l Regex File \;
+find Path Path -size Size -mtime Timespan -ls
+shopt -s Option
+find Path -name Regex -print0 | xargs -0 -n Quantity -I ReservedWord dirname ReservedWord | sort | uniq
+find Path -amin Quantity
+find Path -name Regex -type Type -exec chmod Permission File \;
+find Path -name Regex -delete
+find Path -type Type -exec chmod Permission File \;
+echo Regex | ssh Regex
+chown -R $(whoami) File
+find Path -type Type ! -newer File ! -samefile Regex -exec rm File +
+awk Program Program
+find Path -mindepth Quantity -maxdepth Quantity -name Regex -printf Format | sh
+find | xargs
+find Path -cmin Quantity | head
+cat File | tr -d -c Regex
+find Path -exec grep Regex File +
+find Path -exec grep -l Regex File +
+bind Regex
+find Path -type Type ! -perm Permission
+echo -e Regex | tr -d Regex | grep Regex
+ssh -o Option -M -N -f Regex
+find Path -type Type -name Regex ! -name Regex -print
+mv File File
+find Path -name Regex -exec chmod Permission File \; -exec ls -l File \; | tee File
+find Path -size Size
+find Path -size Size -ok mv File File File \;
+find Path -name Regex
+find Path -name Regex -exec grep Regex File \;
+find Path -iname Regex -exec cp File File \;
+rename -v Regex Regex
+mkdir Directory
+split -n Quantity File
+find Path -name Regex -exec grep -l Regex File \; | wc -l
+find Path -type Type
+find Path -depth -type Type -not -name Regex -and -not -name Regex -and -not -name Regex -exec rm File +
+find Path -print0 | grep -a -z -Z Regex | xargs -0 -I ReservedWord file ReservedWord
+find Path -newer File -exec tar -u -v -f File File \;
+find Path -newer File -print
+echo -e Regex | ssh-keygen -t Type
+find Path -name Regex | xargs -I ReservedWord cat ReservedWord | wc -l
+find Path -type Type -name Regex -print0
+find Path -size Size
+touch -m --date=Regex File
+mktemp -u -p Regex
+find Path -iname Regex -mtime Timespan
+find Path -name Regex -print | tee -a File
+find Path -type Type -name Regex
+find Path -type Type -name Regex -exec sed --in-place=Regex Program +
+find Path -type Type -name Regex -exec rm File \;
+find Path -not -name Regex -print
+find Path -path Regex -print
+find Path -mtime Timespan
+find Path -exec chmod Permission File \;
+find Path -type Type -empty -delete
+find Path -type Type -empty -exec rmdir Directory \;
+find Path -name Regex -exec grep Regex File \;
+source File
+find Path -name Regex
+find Path \( ! -name Regex -prune \) -name Regex -print
+echo $(uname -a | awk Program)
+find Path -name Regex
+find Path -type Type -empty -delete
+find Path -name Regex -type Type -print
+find Path -maxdepth Quantity -type Type
+ls | xargs -i -I ReservedWord mv File File ReservedWord
+find Path -perm Permission | head
+find Path -mmin Quantity
+find Path -mtime Timespan -type Type | xargs -I ReservedWord rm -f -r ReservedWord
+find Path -mmin Quantity
+find Path -name Regex -exec mv -t Directory File +
+mv -T File File
+dig Regex Regex Type
+find Path -type Type -perm Permission | awk -- Program
+find Path -perm Permission
+find Path -regex Regex
+history | awk Program
+find Path -name Regex
+find Path -type Type
+find Path -nouser -ok rm File \;
+find Path Path -type Type -exec chown Regex File \;
+mkdir -p Directory
+cat File | head - Quantity | tail - Quantity
+cp -r File File
+find Path ! -wholename Regex
+find Path -type Type -iname Regex -print0 | xargs -0 -I ReservedWord grep Regex ReservedWord
+find Path -ctime Timespan -print
+find Path -exec grep -q Regex File \; -print
+find Path -name Regex -print0 | xargs -0 -I ReservedWord ls ReservedWord
+tree | md5sum
+mv File File
+find Path -type Type \( -name Regex -or -name Regex -or -name Regex \)
+ssh-keygen -t Type
+mkdir Directory
+find Path $(ls -d File) -name Regex
+find Path -type Type -name Regex -exec ls -l File \;
+history | awk Program | sort | uniq -c | sort -r -n | head
+mv -t Directory File File File
+find Path -type Type -name Regex
+find Path -type Type -empty
+who File Regex | awk Program
+find Path -name Regex -exec cat File \;
+sed Program File | tee File
+cat File | xargs -I ReservedWord dig Regex ReservedWord
+grep -E -o Regex File | tr Regex Regex
+find Path -name Regex | xargs -I Regex rm -v File
+find Path -print
+find Path -name Regex | xargs -I ReservedWord grep Regex ReservedWord
+find Path -depth -empty -delete
+find Path
+hostname Regex
+find Path -type Type -name Regex | sed Program | sed Program | xargs -I Regex cp -v File File
+find Path -cmin Quantity
+awk -f File Program
+find Path -name Regex -print0 | xargs -I Regex -0 bzip2 -d -c File | cut -f Number -d Regex
+find Path -type Type -name Regex -exec rm -f File \;
+find Path -mmin Quantity -print
+find Path -prune -empty -type Type
+find Path -type Type -not -path Regex -not -path Regex
+find Path -path Regex -prune -or -print
+chown -R Regex File
+chown Regex File
+find Path ! -path Regex -iname Regex
+find Path -type Type | wc -l
+find Path \( -name Regex -or -name Regex \) -print
+ln -s File Regex
+comm -2 -3 File File
+sort File | rev | uniq -f Quantity | rev
+grep -E -o Regex File | tr -d Regex
+find Path -name Regex
+dig -x Regex | awk Program
+find Path -type Type -name Regex
+find Path -type Type -iname Regex ! -path Regex -or -iname Regex ! -path Regex
+find Path -type Type -exec grep -H Regex File +
+find Path -regex Regex
+find Path Path -size Size -atime Timespan -print
+cat File | grep -o
+shopt -s Option
+find Path -type Type \( -name Regex -or -name Regex \)
+pstree -p Regex
+find Path -path Regex -prune -or -nouser -or -nogroup
+find Path -name Regex
+find Path -newer File
+find Path -name Regex
+find Path | grep -i Regex | grep -i Regex
+find Path -type Type -not -name Regex -mtime Timespan -exec ls File \;
+read -s -p Regex Regex
+gunzip Regex
+find Path -atime Timespan
+cd $(basename Regex Regex)
+sed Program File | tr -d Regex | wc -c
+find Path -name Regex -type Type -exec du -h File \;
+find Path -mtime Timespan | xargs -I ReservedWord tar -c -z -v -P -f $(date Format) ReservedWord
+find Path -type Type -exec chmod Permission File +
+find Path -name Regex -print -exec awk Program Program \;
+mount -l | grep Regex
+find Path -name Regex -exec rm File \;
+find Path -type Type -name Regex
+find Path -type Type
+ping Regex -c Quantity | grep -E -o Regex | cut -f Number -d Regex
+find Path -name Regex
+find Path ! -group Regex
+find Path -type Type -exec grep Regex File \;
+find Path -print -exec touch File \;
+find Path \( -name Regex -prune -or -name Regex \) -print
+find Path -type Type -exec chmod Permission File \;
+sed Program File | sed -n -f Program File
+find Path -type Type -iname Regex | grep -i Regex
+ifconfig | grep -o -P Regex
+find Path -type Type
+find Path -group Regex -or -nogroup -print0 | xargs -0 -I ReservedWord chown Regex ReservedWord
+find Path -name Regex -prune -or \( -type Type -print0 \)
+watch ls -l File
+ls $(pwd)
+find Path -type Type -name Regex -exec rm -f File \;
+rsync -a -z -P -e ssh -p Regex File File
+find Path -name Regex -or -name Regex
+find Path -maxdepth Quantity -empty -exec echo Regex \;
+find Path -maxdepth Quantity -xdev -type Type -exec grep -Z -l -i Regex File +
+find Path -user Regex | more
+find Path ! -newer File -print
+find Path -type Type -exec chmod Permission File +
+find Path -type Type -ls | grep Regex
+find Path -type Type | xargs -I ReservedWord chown Regex ReservedWord
+chown -R Regex File
+find Path -name Regex -not \( -path Regex -or -path Regex \)
+man Regex | grep Regex
+find Path -name Regex
+readlink -m File
+su -l
+nl -n Format | sort -u -k Number | sort -k Number | cut -f Number
+find Path \( -size Size -fprintf File Format \)
+find Path -name Regex
+find Path -type Type -name Regex -exec md5sum File + | awk Program | sort | md5sum
+find Path -size Size -size Size
+ifconfig | grep Regex | cut -d Regex -f Number | awk Program
+find Path -name Regex -exec chmod Permission File \;
+cat File | sed Program | od -c
+find Path -name Regex -ls
+find Path -type Type -name Regex -execdir pwd \;
+find Path -exec grep Regex File +
+find Path -type Type -name Regex
+find Path -type Type -name Regex -exec grep -s Regex File \; -print
+find Path -mindepth Quantity -type Type -exec mv File File \;
+find Path -size Size -print
+ln -s File Regex
+find Path -iname Regex -type Type -exec mv File File \;
+find Path Path Path -prune -empty
+find Path -type Type \( -iname Regex ! -perm Permission \)
+echo <(yes)
+find Path -ls | awk Program
+find Path -type Type -ctime Timespan
+ssh Regex -L Regex -N
+find Path -name Regex -print0 | xargs -0 -I ReservedWord rm ReservedWord
+find Path -name Regex
+dirname Regex
+find Path -type Type -print0 | xargs -0 -n Quantity -I ReservedWord md5sum ReservedWord | sort -k Number | uniq -w Quantity -d --all-repeated=Option | sed -e Program
+find Path -name Regex -exec grep Regex File \;
+cat File | xargs -n Quantity
+find Path -type Type -print | xargs -i -I ReservedWord mv -f File File ReservedWord
+find Path -mtime Timespan -print
+mount -t Option Regex Regex
+ifconfig | grep Regex | grep -v Regex | awk -F Regex Program | awk Program | head - Quantity
+find Path -name Regex -exec ls -l File \;
+ssh -t Regex command
+seq Number | sed Program
+find Path -type Type | wc -l
+tail -f Regex | grep --line-buffered Regex
+find Path Path
+find Path $(pwd) -type Type
+find Path ! -type Type -printf Format | awk Program
+find Path -iname Regex
+find Path -type Type
+rsync -a -v -R File File
+history Quantity
+find Path -type Type -name Regex -exec grep -H Regex File +
+od -t Type -t Type File
+find Path Path -maxdepth Quantity -name Regex -printf Format
+find Path -perm Permission
+chown Regex File File
+ping -b Regex | grep Regex | awk Program
+find Path -name Regex -exec chmod Permission File +
+find Path -cmin Quantity -print
+find Path -type Type | xargs -I ReservedWord ls -l -S ReservedWord | head - Quantity
+find Path -name Regex -print0 | xargs -0 -I ReservedWord grep -n Regex ReservedWord
+ln -s -f -v File Regex
+find Path -name Regex | xargs -I ReservedWord cat ReservedWord | wc -l
+mount -t Option Regex Regex
+find Path -newermt Regex ! -newermt Regex -print
+cd $(find Path -name Regex | xargs -I ReservedWord dirname ReservedWord)
+diff -q File File | grep Regex | grep -E Regex | sed -n Program
+find Path -name Regex
+find Path -name Regex
+find Path -perm Permission
+nl -b Option File | sort -k Number | sed Program | sort -k Number | sed Program
+dig -x Regex | grep Regex | cut -d Regex -f Number | grep Regex | cut -f Number
+find Path -type Type
+find Path -name Regex -prune -or -print
+find Path -type Type -name Regex -print0 | xargs -0 -I ReservedWord chmod -R Permission ReservedWord
+echo Regex | cut -d Regex -f Number
+find Path -name Regex
+find Path -perm Permission
+sort File | uniq | cut -f Number -d Regex | uniq -c | rev
+find Path -exec ls File +
+find Path Path Path Path -type Type -exec cp File File \;
+rm -r File
+find Path -type Type -exec chmod Permission File \;
+find Path -maxdepth Quantity -empty -not -name Regex
+sed Program
+dig Regex | grep -e Regex | tr -s Regex Regex | cut -d Regex -f Number
+echo -e Regex | tee -a File
+find Path -empty -maxdepth Quantity -exec rm File \;
+crontab -u Regex -l
+find Path -perm Permission -print | xargs -I ReservedWord chmod Permission ReservedWord
+find Path -type Type \( -name Regex -or -name Regex -or -name Regex \)
+find Path -name Regex | sort | xargs -I ReservedWord wc -l ReservedWord
+shopt -s Option
+find Path -name Regex | xargs -I ReservedWord grep -l Regex ReservedWord | wc -l
+du -s File | sort -n
+readlink $(which Regex)
+join -1 Regex -2 Regex -o Format File File
+grep -a -r -e Regex Regex | md5sum | cut -c Number
+find Path -name Regex
+sort
+find Path -type Type -exec wc -l File +
+chown -R Regex File
+ls -F -l -t -r File
+find Path
+find Path -mtime Timespan | xargs -I ReservedWord rm ReservedWord
+cat File | sort --unique | wc -l
+find Path | cpio -p -d -u -m -v Regex
+find Path -type Type -not -name Regex
+diff <(sort -n File) <(sort -n File)
+find Path -name Regex -type Type -print
+find Path -type Type -name Regex -print
+find Path -type Type -size Size
+mkdir Directory
+find Path -name Regex
+find Path -type Type -print0 | xargs -0 -I ReservedWord chmod Permission ReservedWord
+echo Regex | tr Regex Regex | grep Regex -q
+find Path -mmin Quantity
+find Path Path Path -print | tee File
+find Path -type Type \( -name Regex -or -name Regex -or -name Regex \)
+ls -1 | paste -s -d File File
+find Path -name Regex -printf Format | bash
+find Path
+find Path -name Regex | cat File File | sort | uniq -u
+ln -s -f File Regex
+find Path -type Type -xtype Type
+find Path -name Regex ! -name Regex -print0
+find -L Path -type Type
+find Path -name Regex -print0 | cpio -p -a -m -v -d -0 Regex
+rsync --sparse File File
+find Path -type Type -print0
+find Path \( -name Regex -or -name Regex -or -name Regex \) -print | xargs -I ReservedWord chmod Permission ReservedWord
+find Path -name Regex -mtime Timespan
+find Path -mindepth Quantity -maxdepth Quantity -name Regex
+su Regex
+find Path -type Type -exec grep Regex File \;
+find Path -maxdepth Quantity -type Type -delete
+uniq
+find Path | wc -l
+find Path -type Type -printf Format | sort -n | tail - Quantity | cut -f Number -d Regex
+find Path -type Type -print | sed Program | xargs -I ReservedWord mkdir -p ReservedWord
+find Path -name Regex -type Type -print -exec rm -r -f File \;
+find Path -type Type -and -name Regex | xargs -I ReservedWord rm -r ReservedWord
+find Path -type Type -perm Permission -print
+find Path -name Regex -type Type -daystart -mtime Timespan -mtime Timespan | xargs -I ReservedWord cat ReservedWord | sort | uniq
+find Path -type Type -name Regex | grep Regex
+mv File $(echo Regex | tr Regex Regex)
+find Path -type Type -exec grep -i Regex File \; -print
+ps -a -u Regex | grep Regex | awk Program | xargs -I ReservedWord pstree ReservedWord
+chmod Permission File
+find Path -name Regex -printf Format
+paste File
+find Path -name Regex
+find Path -mtime Timespan | xargs -0 -I ReservedWord cp File ReservedWord
+join -t Regex <(sort File) <(sort File)
+ln -s File
+find Path -name Regex -print | xargs -I ReservedWord grep Regex ReservedWord
+cp $(ls | grep -v Regex) File
+find Path -newerct Regex -print
+find Path -type Type | sed Program | tr Regex Regex | sed Program
+find Path -name Regex | xargs -I ReservedWord grep Regex ReservedWord
+rsync -a --filter=Program File File
+find Path -name Regex -type Type -print
+find Path -name Regex -print0 | xargs -0 -I ReservedWord mv -t Directory ReservedWord
+find Path Path -type Type Path \( -path Regex Path -or Path -name Regex Path \) Path -prune Path -or Path -type Type -name Regex -print
+find Path -name Regex | wc -l
+find Path -name Regex -type Type
+find Path -mtime Timespan -daystart -exec cp -a File File File \;
+find Path -name Regex -size Size -size Size
+find Path -type Type -and -mmin Quantity
+find Path -mtime Timespan -name Regex -print
+awk Program Program Program
+dig Regex Regex Type Option | awk Program
+man Regex
+cat File | xargs -0 -I ReservedWord echo ReservedWord
+find Path -type Type
+find Path -lname Regex
+find Path -type Type -mtime Timespan -print0 | awk -v Program -v Program Program | xargs -0 -I ReservedWord rm ReservedWord
+find Path -size Size -exec ls -s File \;
+find Path -mtime Timespan -type Type
+find Path -maxdepth Quantity -type Type -regex Regex -not -name Regex
+find Path -print0 | xargs -0 -l -i -I ReservedWord echo Regex ReservedWord
+date -d Regex
+find Path -name Regex -type Type -print -exec rm -r -f File \;
+find Path -type Type
+true | sleep Timespan
+readlink -f File
+find Path Path Path -type Type -exec chmod Permission File +
+find Path Path Path Path -name Regex -type Type -ls
+find Path -mtime Timespan
+rsync File File
+find Path -name Regex -type Type -exec rm -f File \;
+find Path -type Type -exec cat File \;
+find Path | grep -E Regex | xargs -I ReservedWord rm -r -f ReservedWord
+which Regex | xargs -I ReservedWord ls -l ReservedWord
+find Path -type Type -exec chmod Permission File \;
+find Path -iname Regex
+rsync --recursive --exclude=Regex File File
+find Path Path
+$(dirname $(readlink -f File))
+find Path -name Regex -type Type | rename Regex
+find Path -type Type -print | xargs -I ReservedWord grep Regex ReservedWord
+find Path -name Regex
+find Path -name Regex -print0
+find Path -type Type ! -perm Permission
+cat File | sed Program | wc -l
+find Path -type Type -name Regex | awk -F Regex Program | sort -u
+find Path -iname Regex
+date Format
+find Path -name Regex -or -name Regex -or -name Regex
+find Path -size Size -iname Regex
+find Path -type Type -exec chmod Permission File \;
+find Path \( -iname Regex -or -name Regex \) -and ! -type Type -and -mmin Quantity
+cd $(find Path -print0 | sort -z | tr Regex Regex | tail - Quantity)
+find Path -type Type -exec chmod Permission File \;
+find Path -perm Permission -print
+file File
+find Path -mtime Timespan
+find Path -type Type -print
+find Path -name Regex -print0 | xargs -0 -I ReservedWord grep -H Regex ReservedWord
+ssh Regex
+true | echo Regex
+find Path -maxdepth Quantity -name Regex -type Type -print0 | xargs -0 -r -I ReservedWord mv -t Directory ReservedWord
+fold File File | awk -f File
+rename -v Regex Regex
+find Path -type Type -name Regex | cut -c Number | nl
+cat File | nl
+read -p Regex Regex
+find Path -type Type -iname Regex | cpio -p -v -d -m -u Regex
+split File Regex
+find Path -name Regex -ok rm File \;
+find Path -name Regex -ls
+find Path -exec grep Regex File File \; -print
+find Path -name Regex
+find Path -maxdepth Quantity -mindepth Quantity -type Type -iname Regex -exec rename -n Regex Regex +
+find Path -mtime Timespan
+find Path \( -name Regex -or -name Regex \) -type Type -ls
+rev File | sort | uniq -f Quantity | rev
+ls -t -p | grep -v Regex | tail -n Quantity | xargs -I Regex rm -- File
+find Path -type Type -mtime Timespan -print -exec cat File \; | tar -c -f File | gzip -9
+find Path -atime Timespan -exec ls \; | wc -l
+find Path -type Type -atime Timespan -print
+find Path -type Type -empty -exec rmdir -v -p --ignore-fail-on-non-empty Directory +
+find Path -not \( -name Regex -prune -or -name Regex -prune \) -type Type -print0 | xargs -0 -I ReservedWord sed -i Program File File ReservedWord
+find Path \( -name Regex -or -prune \)
+find Path -name Regex -daystart -mtime Timespan -mtime Timespan
+find Path -lname Regex
+find Path -iname Regex
+rm File
+find Path -type Type -size Size
+find Path -mtime Timespan -daystart
+find Path -type Type -exec chmod Permission File \;
+find Path -type Type
+find Path -name Regex -type Type -print
+find Path -path Regex -print
+find Path -name Regex -exec rm File \;
+seq Number Number | split -l Quantity -a Quantity -d File Regex
+mount -t Option -o Option Regex Regex
+cat File | sort -u
+find Path -exec echo -n Regex \;
+cat File | xargs -I Regex -d Regex -n Quantity grep -r Regex
+find Path -name Regex
+mkdir Directory
+find Path --version
+find Path -iregex Regex
+grep Regex File | more
+set -o Option
+find Path \( -name Regex -prune \) -and \( -name Regex -prune \) -or \( -name Regex -print \)
+find Path -iname Regex
+find Path \( -name Regex -prune -and -name Regex -prune -or -name Regex \) -print
+find -E Path -type Type -regex Regex
+read -e -p Regex Regex
+chmod --reference=File Permission
+find Path -type Type -name Regex | xargs -t -i -I ReservedWord grep Regex File ReservedWord
+find Path -type Type -name Regex -ctime Timespan -exec sed -i Regex -e Program -e Program Program File \; | wc -l
+find Path -type Type -exec scp File File \;
+find Path -type Type -iname Regex -exec  \;
+od -t Type -A Option File | head
+find Path -user Regex
+find Path -name Regex
+chown Regex File
+find Path -path Regex -print Path
+find Path -name Regex -exec mv File File \;
+find Path -atime Timespan
+cd $(dirname $(which Regex))
+find Path -type Type -cmin Quantity
+find Path -size Size
+echo Regex | rev | cut -d Regex -f Number | rev
+find Path -type Type -exec echo Regex Regex Regex \;
+find Path -type Type -name Regex -prune -or -type Type -print
+find Path -name Regex | xargs -i -I ReservedWord echo Regex Regex Regex ReservedWord
+echo Regex | grep -E -o Regex | cut -d Regex -f Number
+find Path -type Type
+find Path
+find Path -type Type -name Regex -exec cat File \; | sed Program | wc -l
+read -e -p Regex Regex
+ssh Regex command
+echo Regex | rev | cut -c Number | rev
+mkdir -p -- $(dirname -- Regex)
+find Path -type Type -name Regex
+whoami | awk Program
+find Path -L -xtype Type
+find Path -name Regex
+find -name Regex Path Path Path Path
+find Path -type Type -exec chmod Permission File \;
+read -N Quantity Regex
+chown -R Regex File
+find Path -s
+echo Regex | wc -c
+find Path -mtime Timespan -mtime Timespan | head
+find Path -user Regex -iname Regex | head
+find Path -name Regex | awk -F Regex Program | sort -t Regex -k Number | cut -d Regex -f Number
+find Path -newer File
+find Path -depth -name Regex -exec rm -f -r File \;
+find Path -not -name Regex
+tree -a -f
+ping -c Quantity Regex | sed Program
+ls
+find Path -type Type -name Regex ! -path Regex ! -path Regex ! -path Regex
+find Path ! Path -prune
+find Path -name Regex
+find Path -mtime Timespan -print
+find Path -type Type
+find Path -regextype Type -regex Regex
+find Path -amin Quantity
+find Path -iname Regex
+find Path -path Regex -print
+cat $(find Path -name Regex -print)
+basename Regex | cut -d Regex -f Number
+find Path -type Type -atime Timespan -exec rm File \;
+find Path -maxdepth Quantity -name Regex
+find Path -iname Regex
+find Path -type Type -empty
+find Path -type Type \( ! -iname Regex \) -mtime Timespan -exec ls File \;
+echo Regex | cut -d Regex -f Number
+sort -b -n -k Number File
+find Path -regex Regex
+kill - Regex Regex
+uname -m | grep Regex
+find Path -name Regex -or -name Regex -or -name Regex -or -name Regex -or -name Regex -or -name Regex
+find Path -print | grep Regex
+$(md5sum File | cut -b Number)
+find Path -depth -empty -type Type -delete
+find Path -name Regex -exec rm -v -f File \;
+split -l Quantity File
+find Path -maxdepth Quantity -type Type -print0 | xargs -0 -I ReservedWord sed -i Program ReservedWord
+find Path -name Regex -empty -delete
+find Path -type Type
+readlink -e File
+echo Regex | tee -a File
+find Path -lname Regex
+find Path \( -name Regex -or -name Regex \) -type Type -atime Timespan -exec rm File \;
+find Path -type Type -iname Regex -print
+cat -n File | less
+find Path -type Type -execdir echo Regex Regex Regex \;
+find Path -maxdepth Quantity -iname Regex
+read -r -s -p Regex -n Quantity -t Quantity
+echo -n Regex | od -A Option -t Type
+find Path -type Type -mtime Timespan
+ssh -i File -T -N -L Regex Regex
+mkdir Directory
+ls -t | head -n Quantity
+find Path -mindepth Quantity | xargs -I ReservedWord chmod Permission ReservedWord
+chmod Permission $(find Path -type Type -print)
+mktemp Regex
+find Path -type Type -empty
+find Path -type Type -exec grep Regex File \;
+find Path -name Regex -not -path Regex -not -path Regex
+chown Regex File
+find Path -name Regex
+find Path -type Type -name Regex
+find Path -type Type \( -iname Regex -or -iname Regex -or -iname Regex -or -iname Regex \) -exec echo Regex \;
+who -m | awk Program
+find Path -name Regex -exec ls -l -d File \;
+tar -c -z -v -f File $(find Path -mtime Timespan)
+join -o Format -t Regex <(sort File) <(sort File)
+find Path -type Type -name Regex
+find Path -mtime Timespan -type Type -size Size -ls
+find Path -name Regex
+find Path -type Type -perm Permission -print -exec chmod Permission File \;
+find Path -name Regex -exec ls File \;
+mkdir -p Directory
+shred -v -n File -z -u File
+yes | cp File File
+wc -l $(find Path -name Regex)
+find Path -xdev -printf Format | sort -n -r | head - Quantity
+find Path -type Type -size Size -print -name Regex -exec rm File \;
+echo -e -n Regex Regex $(md5sum File) Regex
+find | head
+gzip -d -c Regex | tar -x -f File -C Directory
+find | xargs -I ReservedWord ls ReservedWord
+echo $(date) $(hostname)
+seq Number Number | head - Quantity
+find Path -mtime Timespan -print | grep -F -x -v -f Regex
+find Path -name Regex -exec mv File File \;
+echo Regex | od -A Option -v -t Type | tr -d Regex
+find Path -exec grep Regex File \; -print
+find Path -user Regex -exec rm File \;
+find Path -name Regex -exec echo Regex Regex \;
+find Path -name Regex -type Type -delete
+find Path Path -f -ctime Timespan
+find Path | head
+find Path -exec echo -n Regex \; | tr Regex Regex
+find Path -maxdepth Quantity -name Regex -print
+nl -v Quantity File
+echo Regex | sed -e Program -e Program | column -t
+find Path -name Regex | grep -E Regex
+find Path -size Size
+find Path -name Regex
+find Path -name Regex -ls
+yes | cp -r -f File File
+find Path -type Type -name Regex
+cd $(dirname Regex)
+cd $(find Path | sed Program)
+find Path -type Type -exec sed -i Program File +
+find Path -name Regex -print0 | xargs -0 -n Quantity -I ReservedWord dirname ReservedWord | sort --unique
+find Path | grep -E Regex
+find Path -atime Timespan -name Regex
+find Path -regex Regex
+uname -a
+ssh -o Option Regex
+find Path -name Regex -exec rm -f File \;
+dig Regex
+find Path -daystart -mtime Timespan -type Type ! -mtime Timespan -printf Format
+find Path -type Type -mtime Timespan -print0 | xargs -0 -I ReservedWord mv -t Directory ReservedWord
+rsync -a -P -S -H -i -v File File
+rm -r File
+echo Regex | tee File
+find Path -type Type
+find Path -type Type -print | xargs -I ReservedWord grep -i Regex ReservedWord
+find Path -regex Regex
+find Path -print | xargs -I ReservedWord chown Regex ReservedWord
+find Path ! -user Regex
+find Path -regex Regex
+find Path -type Type -iname Regex -print0
+find Path -type Type -perm Permission
+find Path -type Type -print0 | xargs -0 -I ReservedWord chmod Permission ReservedWord
+find Path -name Regex -exec echo Regex \;
+mktemp
+find Path -type Type -name Regex ! -path Regex ! -path Regex
+find Path -type Type -name Regex -newermt Regex ! -newermt Regex -printf Format | sort | awk Program
+ping -n Regex Regex | find Path
+find Path -name Regex -exec tar -u -f File File +
+sort | uniq -c
+cat --help
+find Path -mtime Timespan
+find Path -name Regex
+rev File | cut -d Regex -f Number | rev
+find Path -user Regex -name Regex
+find Path -type Type -printf Format | sort
+find Path -type Type -printf Format | head -n Quantity
+find Path -size Size -exec rm -r -f File \;
+ifconfig Regex | grep -E -o Regex
+chown Regex -R File
+sed -i Program -e Program $(find Path -type Type)
+find Path -ipath Regex
+find Path -name Regex -exec rm -f File \;
+grep --exclude=Regex -r -n -w Regex -e Regex
+find Path -maxdepth Quantity -type Type -mtime Timespan -exec rm -r -f File \;
+find Path -type Type -exec grep -l -i Regex File \;
+find Path -size Size -exec rm -r -f File \;
+find Path | xargs -I ReservedWord grep Regex -l -s ReservedWord
+find Path -type Type -exec chmod Permission File +
+ssh -l Regex Regex
+chgrp -R Regex File
+find Path -size Size -print
+comm -2 -3 <(find Path -type Type | sed Program | sort) <(find Path -type Type | sed Program | sort) | sed Program
+find Path -iname Regex -type Type -exec sed -i Program File File +
+find Path -newer File -print
+find Path
+find Path -type Type -name Regex -exec wc -w File \; | awk Program
+find Path -type Type -printf Format | sort -n -r | head - Quantity | cut -f Number -d Regex | sed -e Program | xargs -I ReservedWord ls -U -l ReservedWord
+find Path -name Regex -print0 | xargs -0
+sort -t Regex -k Number -k Number File
+find Path -type Type -exec basename Regex \; | wc -l
+find Path ! -regex Regex
+find Path -type Type -print0 | xargs -0 -I ReservedWord chmod Permission ReservedWord
+sort -u -o File File
+find Path -name Regex -exec grep -E -l Regex File \;
+find Path -iname Regex -type Type -print0 | xargs -0 -I Regex mv File File
+cp -r File File
+ln -s File Regex
+kill $(jobs -p)
+find Path -type Type -name Regex -printf Format | sort -n -r | head -n Quantity
+find Path -mount -name Regex
+find Path -name Regex -print0 | xargs -0 -I ReservedWord rm -r -f ReservedWord
+find Path -type Type -name Regex -print
+find Path -type Type -name Regex -print0 | xargs -0 -I ReservedWord rm -r -f ReservedWord
+find Path -inum Quantity -exec rm File \;
+find Path -d Path -type Type -name Regex -print
+chmod Permission File
+find Path Path | grep -P Regex
+find Path -name Regex | xargs -I ReservedWord rm -r -f ReservedWord
+dirname $(readlink -f File)
+find Path -type Type -mtime Timespan
+find Path -regex Regex
+echo Regex $(dirname Regex)
+find Path -name Regex -maxdepth Quantity -print0 | xargs -0 -I ReservedWord mv ReservedWord File
+find Path -type Type -exec echo Regex Regex \;
+find Path -name Regex -exec rm File \;
+awk -f File Program Program | rev | column -t | rev
+find Path -maxdepth Quantity -iname Regex
+echo $(readlink --canonicalize $(which Regex))
+find Path -exec file File \; | grep Regex | cut -d Regex -f Number
+find Path -type Type -print0 | xargs -0 -I ReservedWord chown Regex ReservedWord
+find Path -name Regex | xargs -I ReservedWord rm ReservedWord
+find Path -name Regex -exec echo Regex \;
+find Path -name Regex
+find Path -maxdepth Quantity -type Type | xargs -0 -I ReservedWord mkdir -p ReservedWord
+rsync File File
+find Path -type Type -name Regex -exec sed -i Program File \;
+find Path -user Regex
+shopt Option Option
+find Path -type Type -print
+find Path -name Regex -exec grep -H -i -n Regex File + | cut -d Regex -f Number
+find Path -type Type -name Regex
+ls $(which Regex) -a -l
+find Path -name Regex
+find Path -size Size \( -mtime Timespan -or -atime Timespan \) -ls
+find Path -L -type Type
+find Path -type Type -iname Regex
+find Path -iname Regex -printf Format
+chmod Permission File
+sort --random-sort File | head -n Quantity
+find Path -mindepth Quantity -type Type -print0
+find Path -mmin Quantity -print
+touch -t $(date Format) File
+find Path | head
+find Path -mtime Timespan
+find Path -mtime Timespan -user Regex -exec ln -s File Regex \;
+sort -n
+find Path -size Size -name Regex -print0 | xargs -0 -I ReservedWord ls -l -S -h ReservedWord
+find Path -name Regex
+chmod Permission -R File
+find Path -type Type -not -path Regex -exec cp --parents File File \;
+find Path -mindepth Quantity -type Type
+find Path -type Type -exec rm File \;
+env -i Program Program
+find Path -print0 | sort -z | cpio -p -d -v -0 Regex
+find Path -name Regex -exec grep -i -r Regex File \;
+find Path -type Type | xargs -I ReservedWord chmod -v Permission ReservedWord
+find Path -L
+find Path -type Type -name Regex -size Size -exec rm -i File \;
+find Path -type Type -exec chmod Permission File \;
+find Path -name Regex -print0 | xargs -0 -I ReservedWord rename Regex ReservedWord
+source $(dirname $(which Regex))
+comm -1 -2 <(sort File) <(sort File)
+wc -l $(find Path -name Regex)
+find Path ! -path Regex ! -path Regex -iname Regex
+mkdir Directory
+find Path -perm Permission
+find Path -type Type -printf Format | sort -n | tail - Quantity | cut -f Number -d Regex | sed Program | xargs -I ReservedWord ls -l ReservedWord
+find Path -mtime Timespan -print
+find Path -name Regex
+find Path -atime Timespan
+tree -d
+find Path -type Type -not -newermt Regex
+find Path -type Type -atime Timespan -exec rm File \;
+date Format
+find Path -type Type -iname Regex -printf Format | sort -u
+mkdir Directory
+find Path Path
+find Path -type Type -name Regex -exec grep -i -l Regex File \;
+find Path -amin Quantity
+find Path -mtime Timespan | grep -v Regex | grep -v Regex
+find Path -type Type
+find Path -xdev -samefile Regex -exec rm File +
+find Path -user Regex
+find Path -name Regex
+find Path -name Regex -exec cp -a File File \;
+find Path -name Regex -type Type
+find Path | xargs -I ReservedWord grep Regex ReservedWord
+find Path -type Type -name Regex -mtime Timespan -print | xargs -I ReservedWord rm -r -f ReservedWord
+find Path -name Regex
+find Path -type Type -name Regex | awk -F Regex Program
+find Path -type Type | xargs -d Regex -I ReservedWord grep Regex ReservedWord
+mount Regex Regex -o Option -t Option
+pushd Directory
+find Path ! -type Type | xargs -I ReservedWord wc -c ReservedWord
+find Path -iname Regex -exec du -b File +
+find Path -regex Regex
+find Path -exec grep Regex File \;
+find Path -type Type -exec grep -I -q Regex File \; -and -print
+ln -s File Regex
+find Path -atime Timespan -exec rm -f File \;
+find Path -type Type -name Regex -ls
+find Path -name Regex -print
+find Path -name Regex | xargs -I ReservedWord grep -l Regex ReservedWord
+find Path -name Regex -exec grep Regex File \; -print
+ln -s $(ls -r -t File | tail -n Quantity) Regex
+find Path -iname Regex
+find Path -type Type -mtime Timespan -exec rm -r -f File \;
+ls -1 | paste -s -d File File
+find Path -type Type -size Size -exec ls -l -h File \; | awk Program
+find Path -type Type
+find Path -type Type -exec chmod Permission File \;
+find Path -name Regex -printf Format | uniq | xargs -I ReservedWord ls -l ReservedWord
+find Path -type Type -printf Format | sort -r -n | head -n Quantity | xargs -I Regex cp File File
+clear
+who | sed -e Program
+find Path -type Type -mtime Timespan
+find Path -type Type -size Size -exec ls -l -h File \; | awk Program
+find Path -type Type -exec sed -i Program File \;
+find Path -type Type -maxdepth Quantity -mindepth Quantity -exec basename Regex \;
+find Path -type Type -exec mkdir -p Directory \;
+find Path -type Type -mtime Timespan
+find Path -type Type -name Regex
+set -e
+find Path -type Type -mtime Timespan -name Regex
+mkdir Directory
+find Path -iname Regex
+find Path -name Regex
+find Path -name Regex -exec grep -H -F -f <(find Path -name Regex -printf Format) File \;
+find Path -name Regex | xargs -I Regex ls -l File
+find Path -type Type | xargs -I ReservedWord md5sum ReservedWord | sort | uniq -D Option
+find Path -name Regex -exec rm File \;
+find Path -type Type -name Regex -exec rm -r -f File \;
+find Path -type Type -exec cat File \; | tr -c Regex Regex Regex | grep Regex
+find Path -name Regex -print0 | xargs -0 -I ReservedWord wc -l ReservedWord
+find Path -path Regex -print
+find Path Path -f -amin Quantity
+echo Regex | cut -d Regex -f Number
+find Path -path Regex
+find Path -name Regex
+find Path | sort -n | tail - Quantity
+find Path -type Type -name Regex -delete -printf Format | xargs -0 -I ReservedWord rmdir ReservedWord
+ifconfig Regex Regex Regex Regex
+find Path | xargs -I Regex mv File File
+find Path -type Type -not -name Regex | xargs -I ReservedWord rm ReservedWord
+find Path -type Type
+ls -F -l -t -r File File
+find Path -name Regex -exec grep -n Regex File \;
+find Path -type Type -mtime Timespan -exec compress File File \;
+find Path -not -name Regex -not -name Regex -not -type Type
+find Path -name Regex
+find Path -maxdepth Quantity -name Regex -prune -or -print0 | xargs -0 -i -I ReservedWord cp File File ReservedWord
+find Path -type Type -mtime Timespan
+find Path -type Type -iname Regex
+find Path -type Type -name Regex | xargs -I ReservedWord tar -r -v -f File ReservedWord
+cp -n File File
+find Path -type Type -iname Regex -exec mv -t Directory File +
+find Path -path Regex -prune -or -type Type -name Regex -print
+uname -o
+find Path -type Type -newermt Regex ! -newermt Regex -exec rm File \;
+find Path -type Type ! -perm Permission
+chown -R Regex File
+find Path -ctime Timespan -type Type -printf Format | xargs -I ReservedWord rsync -a -v -R File File
+ln -s -f $(readlink -f File) Regex
+find Path -type Type -exec rename Regex Regex \;
+find Path -type Type -mtime Timespan -exec rm -f File \;
+ps -u $(whoami) | grep Regex | awk Program
+find Path -mmin Quantity -type Type
+find Path \( -user Regex Path Path Path \) -print
+find Path -type Type -name Regex -exec rm -f File \;
+chgrp -R Regex File
+nl -s Regex
+ping Regex | awk Program
+find Path -type Type -iname Regex
+find Path -name Regex -maxdepth Quantity -exec rm -f File \;
+basename Regex
+find Path -mtime Timespan -and -mtime Timespan -print0
+find Path -mount -name Regex
+cd $(dirname $(find Path -name Regex | sed Program))
+mv File File
+find Path -name Regex
+find Path -type Type -exec rm File \;
+find Path -mtime Timespan -delete
+cat File | paste -s -d File
+find Path -daystart -mtime Timespan
+find Path -name Regex | xargs -I Regex mv File File
+find Path -type Type | sort
+find Path -type Type -print0 | xargs -0 -L Quantity -I ReservedWord wc -l ReservedWord
+find -L Path -type Type
+sort -S Size File
+echo $(dirname $(readlink -m File))
+find Path -mindepth Quantity -maxdepth Quantity -type Type | xargs -n Quantity -I ReservedWord cp -i File ReservedWord
+chown Regex -R File
+grep Regex File File
+find Path -name Regex -maxdepth Quantity -exec rm -f File \;
+find Path -name Regex -ls
+find Path -nouser -exec rm File \;
+bind -p | grep -a Regex
+find Path -printf Format
+set | grep -o -P Regex
+find Path -inum Quantity -exec rm File \;
+hostname -I | awk Program
+find Path -type Type -exec basename Regex \; | wc -l
+mkdir $(cat File | tr -d -c Regex | fold -w Quantity | head -n Quantity)
+find Path -prune
+find Path -mindepth Quantity -type Type -execdir mv File $(dirname Regex) \;
+echo Regex | cut -d Regex -f Number
+find Path -exec  +
+split -l Quantity File
+rsync -r File File
+cat File | sed Program | sed Program | wc -l
+find Path -depth -name Regex -prune -or -print0 | cpio -0 -p -d -v --quiet Regex
+find Path -type Type -printf Format
+find Path -type Type -name Regex | xargs -I ReservedWord tar -r -v -f File ReservedWord
+find Path -name Regex
+find Path -type Type -name Regex -ok cp File File \;
+find Path -type Type -iname Regex
+df -k
